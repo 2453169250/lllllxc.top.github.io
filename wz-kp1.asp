@@ -45,6 +45,8 @@ End If
 <html>
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="apple-mobile-web-app-title" content="太空旅客"/>
 		<title>地球和月球曾经共享一个磁场屏障，保护它们的大气层</title>
 		<link rel="stylesheet" href="css/index.css"/>
 		<!-- <base target="_blank"/> -->

@@ -45,6 +45,8 @@ End If
 <html>
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="apple-mobile-web-app-title" content="太空旅客"/>
 		<title>习近平致电代表党中央、国务院和中央军委祝贺探月工程嫦娥五号任务取得圆满成功</title>
 		<link rel="stylesheet" href="css/index.css"/>
 		<!-- <base target="_blank"/> -->

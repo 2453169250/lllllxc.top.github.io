@@ -45,6 +45,8 @@ End If
 <html>
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="apple-mobile-web-app-title" content="太空旅客"/>
 		<title>NASA将召开火星样本返回任务媒体电话会议</title>
 		<link rel="stylesheet" href="css/index.css"/>
 		<!-- <base target="_blank"/> -->
