@@ -1,0 +1,17 @@
+.page{
+	transform: translate(50%);
+}
+.one,.two{
+	color: #fff;
+	display: inline-block;
+	width: 30px;
+	height: 35px;
+	line-height: 35px;
+	margin: 10px;
+	text-align: center;
+	cursor: pointer;
+	background-color: #0064c2;
+}
+.bgcolor{
+	background:#003364;
+}

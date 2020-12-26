@@ -1,0 +1,14 @@
+$(function(){
+	$(".one").click(function(){
+		$(".ye1").show();
+			$('.one').addClass('bgcolor');
+		$(".ye2").hide();
+			$('.two').removeClass('bgcolor');
+	})
+	$(".two").click(function(){
+		$(".ye1").hide();
+			$('.one').removeClass('bgcolor');
+		$(".ye2").show();
+			$('.two').addClass('bgcolor');
+	})
+})
