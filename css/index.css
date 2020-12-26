@@ -1119,6 +1119,9 @@ footer .form1 input[type=submit]:hover{
 	position: absolute;
 	bottom: -2700px;
 }
+.nav-2{
+	display: none;
+}
 @media screen and (max-width:1024px) {
 	body{
 		-webkit-touch-callout: none;
@@ -1155,6 +1158,7 @@ footer .form1 input[type=submit]:hover{
 		transform: translate(50%,-8%);
 	}
 	.nav-2{
+		display: block;
 		position: absolute;
 		z-index: 999;
 		top: -100px;
