@@ -151,8 +151,10 @@ Recordset1_numRows = 0
 <body>
 	<header>
 		<div class="beijing1"></div>
+		<div class="zhezhao"></div>
 		<div class="top">
-			<a href="index.asp"><img src="img/logoko0.png"></a>
+			<a href="javascript:;" class="header-menu"></a>
+					<a href="index.asp" class="logo"><img src="img/logoko0.png"></a>
 		</div>
 		<nav>
 			<ul class="nav-0">

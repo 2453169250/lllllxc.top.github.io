@@ -7,6 +7,7 @@ $(function(){
 	setInterval(function(){
 		pubuliu();
 	},10)
+	
 })
 function pubuliu(){
 	var li=$(".mryt .box2 .ul2 li"),num=3,arr=[];

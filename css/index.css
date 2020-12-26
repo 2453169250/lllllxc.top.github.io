@@ -80,7 +80,7 @@ header .top{
 	width: 100vw;
 	height: 100px;
 }
-header .top a{
+header .top .logo{
 	display: block;
 	position: absolute;
 	left: 50px;
@@ -88,7 +88,7 @@ header .top a{
 	text-decoration:none;
 }
 header .top img{
-	display: inline-block;
+	display: block;
 	width: 400px;
 	transition: .5s;
 }
@@ -244,9 +244,9 @@ section ol li,ul li{
 	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
 }
 .scroll-wrap{
-	width: 980px;
+	width: 1100px;
 	box-shadow: 0 0 5px #0E1C25;
-	margin:100px auto 45px;
+	margin:13vh auto 4vh;
 	position: relative;
 	/* border-radius: 5px; */
 }
@@ -254,7 +254,7 @@ section ol li,ul li{
 	content: '保护地球, 探索宇宙, 发现文明';
 	font-family: "Motiva Sans", Sans-serif;
 	letter-spacing: 2px;
-	font-size: 13px;
+	font-size: .8em;
 	position: absolute;
 	top: -25px;
 	left: 2px;
@@ -262,15 +262,15 @@ section ol li,ul li{
 	color: white;
 }
 .scoller{
-	width: 980px;
-	height: 500px;
+	width: 1100px;
+	height: 600px;
 	overflow: hidden;
 	position: relative;
 	/* border-radius: 5px; */
 }
 .scoller ul{
-	width: 980px;
-	height: 500px;
+	width: 1100px;
+	height: 600px;
 	position: absolute;
 	background: #0c161f;
 	left:0;
@@ -313,7 +313,7 @@ section ol li,ul li{
 .scoller ul li{
 	position: absolute;
 	z-index: 1;
-	width:980px;
+	width:1100px;
 	display: none;
 }
 .scoller ul li::after{
@@ -358,8 +358,8 @@ section ol li,ul li{
 	position: relative;
 	z-index: 10;
 	display: block;
-	width: 760px;
-	height: 500px;
+	width: 880px;
+	height: 600px;
 	margin: 0 auto;
 }
 .scroll-wrap span{
@@ -367,7 +367,7 @@ section ol li,ul li{
 	z-index: 10;
 	position: absolute;
 	left:-55px;
-	top:200px;
+	top:250px;
 	width:52px;
 	height: 100px;
 	cursor: pointer;
@@ -1118,4 +1118,126 @@ footer .form1 input[type=submit]:hover{
 	height: 50px;
 	position: absolute;
 	bottom: -2700px;
+}
+@media screen and (max-width:1024px) {
+	body{
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	}
+    ul.nav-0{
+		display: none;
+	}
+	main{
+		margin-top: 170px;
+	}
+	.top{
+		height: 70px !important;
+		background-color: #171a21;
+	}
+	.header-menu{
+		background:url(../img/header_menu.png) no-repeat;
+		background-size: contain;
+		display: block;
+		position: absolute;
+		z-index: 99;
+		transform: translate(10px,18px);
+		width: 40px;
+		height: 40px;
+		cursor: pointer;
+	}
+	.top img{
+		position: absolute;
+		width:200px !important;
+		transform: translate(50%,-8%);
+	}
+	.nav-2{
+		position: absolute;
+		z-index: 999;
+		top: -100px;
+		width: 300px;
+		height: 100vh;
+		background-color: #171a21;
+		transform: translateX(-310px);
+		transition: .5s;
+		font-size: 21px;
+		color: #bfbfbf;
+	}
+	.nav-2-li{
+		width: 300px;
+		transition: .3s ease;
+	}
+	.nav-2-a{
+		display: block;
+		width: 300px;
+		height: 60px;
+		padding-left: 10px;
+		line-height: 60px;
+		text-decoration: none;
+		position: relative;
+		cursor: pointer;
+	}
+	.bottom2{
+		display: block;
+		position: absolute;
+		top:25px;
+		right:25px;
+		width: 25px;
+		height: 15px;
+		background: url(../img/bottom.png) no-repeat;
+		background-size: contain;
+		transition: .2s;
+	}
+	.active{
+		transform: rotate(180deg);
+	}
+	.active1{
+		background:#192533;
+	}
+	.active2{
+		color:#fff;
+	}
+	.nav-2-a::after{
+		content: '';
+		display: block;
+		position: absolute;
+		left: 0;
+		right: 10px;
+		border-top: 1px solid #2f3138;
+		border-bottom: 1px solid #000000;
+	}
+	.nav-3{
+		display: none;
+	}
+	.nav-3 .nav-3-a{
+		display: block;
+		width: 270px;
+		height: 40px;
+		padding-left: 30px;
+		line-height: 40px;
+		font-size: 17px;
+		text-decoration: none;
+		color: #fff;
+		position: relative;
+	}
+	.nav-3 li:last-child .nav-3-a::after{
+		content: '';
+		display: block;
+		position: absolute;
+		left: 0;
+		right: 0px;
+		border-top: 1px solid #2f3138;
+		border-bottom: 1px solid #000000;
+	}
+	.zhezhao{
+		position: absolute;
+		z-index: 100;
+		width: 100vw;
+		height: 100vh;
+		background-color: rgba(0,0,0,.4);
+		display: none;
+	}
 }

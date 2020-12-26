@@ -16,6 +16,35 @@ $(function(){
 		            scrollTop: 0
 		        }, 1000);
 		    });
+			
+	/*移动端导航栏*/
+	$(".header-menu").click(function(){
+		$('.nav-2').css('transform','translateX(0px)')
+		$(".zhezhao").fadeIn(100)
+		$(document.body).css({
+			"overflow-y": "hidden"
+		});
+	})
+	$(".zhezhao").click(function(){
+		$('.nav-2').css('transform','translateX(-300px)')
+		$(".zhezhao").fadeOut(100)
+		$(document.body).css({
+			"overflow-y": "auto"
+		});
+	})
+	$(".n1").click(function(){
+		$('.n1 .bottom2').toggleClass('active')
+		$('.n1 .nav-3').stop().slideToggle(300)
+		$(this).toggleClass("active1")
+		$(this).toggleClass('active2')
+	})
+	$(".n2").click(function(){
+		$('.n2 .bottom2').toggleClass('active')
+		$('.n2 .nav-3').stop().slideToggle(300)
+		$(this).toggleClass("active1")
+		$(this).toggleClass('active2')
+	})
+	
 	/*导航栏*/
 	$("nav>.nav-0>.a1").mouseenter(function(){
 		$(".a1>.nav-1").stop().fadeIn(200);
@@ -193,5 +222,4 @@ $(function(){
 	$(".dd"+(type-1)).css('display','block')
 	
 })
-		
-	
+
