@@ -196,8 +196,8 @@ Recordset1_numRows = 0
 				<div class="footer-div clear">
 					<ul class="ul5 clear">关于我们
 						<li><span>&#xe7b9;</span>&nbsp;&nbsp;东莞经济贸易学校</li>
-						<li><span>&#xe615;</span>&nbsp;&nbsp;+86&nbsp;136&nbsp;5004&nbsp;2218</li>
-						<li><span>&#xe61b;</span>&nbsp;&nbsp;l2453169250@gmail.com</li>
+						<li><span>&#xe615;</span>&nbsp;&nbsp;+86&nbsp;136&nbsp;****&nbsp;****</li>
+						<li><span>&#xe61b;</span>&nbsp;&nbsp;**********@gmail.com</li>
 					</ul>
 					<form action="" method="post" class="form1">订阅我们
 						<input type="email" placeholder="Email" required/>
