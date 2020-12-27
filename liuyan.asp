@@ -186,7 +186,28 @@ Recordset1_numRows = 0
 				</li>
 			</ul>
 		</nav>
-	</header>
+	<div class="nav-2">
+						<ul class="nav-2-ul">
+							<li class="nav-2-li n1"><a href="index.html" class="nav-2-a" style="color: #bfbfbf;">首页</a></li>
+							<li class="nav-2-li n1"><a class="nav-2-a nav-click">每日一图<span class="bottom2"></span></a>
+								<ul class="nav-3">
+									<li><a href="mryt-nasa.html" class="nav-3-a">NASA·每日一图</a></li>
+									<li><a href="mryt-tw.html" class="nav-3-a">天文·每日一图</a></li>
+								</ul>
+							</li>
+							<li class="nav-2-li n2"><a class="nav-2-a nav-click">文章分类<span class="bottom2"></span></a>
+								<ul class="nav-3">
+									<li><a href="wz.html?type=1" class="nav-3-a">咨讯</a></li>
+									<li><a href="wz.html?type=2" class="nav-3-a">新闻</a></li>
+									<li><a href="wz.html?type=3" class="nav-3-a">科普</a></li>
+									<li><a href="wz.html?type=4" class="nav-3-a">历史</a></li>
+								</ul>
+							</li>
+							<li class="nav-2-li"><a href="zght.html" class="nav-2-a" style="color: #bfbfbf;">中国航天</a></li>
+						</ul>
+					</div>
+				</nav>
+			</header>
 <div style="margin:50px auto;width:1000px;">
   <h1 style="color: #fff;margin:10px 0;">留言板</h1>
   <iframe src="xians.asp" width="1000" height="500"></iframe>

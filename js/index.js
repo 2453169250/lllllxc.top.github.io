@@ -36,13 +36,11 @@ $(function(){
 		$('.n1 .bottom2').toggleClass('active')
 		$('.n1 .nav-3').stop().slideToggle(300)
 		$(this).toggleClass("active1")
-		$(this).toggleClass('active2')
 	})
 	$(".n2").click(function(){
 		$('.n2 .bottom2').toggleClass('active')
 		$('.n2 .nav-3').stop().slideToggle(300)
 		$(this).toggleClass("active1")
-		$(this).toggleClass('active2')
 	})
 	
 	/*导航栏*/
