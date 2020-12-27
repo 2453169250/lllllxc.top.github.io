@@ -1145,7 +1145,7 @@ footer .form1 input[type=submit]:hover{
 	.top{
 		position: fixed !important;
 		top: 0;
-		z-index: 996 !important;
+		z-index: 99 !important;
 		height: 70px !important;
 		background-color: #171a21;
 	}
@@ -1169,7 +1169,7 @@ footer .form1 input[type=submit]:hover{
 		display: block;
 		position: fixed;
 		top: 0;
-		z-index: 999;
+		z-index: 999 !important;
 		width: 300px;
 		height: 100vh;
 		background-color: #171a21;
