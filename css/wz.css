@@ -139,3 +139,59 @@
 .wz-section a:hover{
 	color: gold;
 }
+@media screen and (max-width:960px){
+	body{
+		position: absolute;
+		z-index: -999;
+		height: 500px !important;
+	}
+	.main2{
+		position: absolute;
+		margin: -200px 0 !important;
+	}
+	.ul1{
+		display: none;
+	}
+	.beijing3::before{
+		display: none;
+	}
+	.zx-div0{
+		width: 160px;
+		height: 100px;
+	}
+	.zx-div1{
+		width: 160px;
+		height: 100px;
+	}
+	.zx{
+		width: 350px;
+		height: 100px;
+		transform: translate(190px,0px);
+	}
+	.sale ul{
+		width: 100vw !important;
+		margin: 0 !important;
+	}
+	.zx-h1,.kp-h1,.ls-h1,.xw-h1{
+		font-size: .9em !important;
+		margin: 12px !important;
+	}
+	.zx-h1::before,.kp-h1::before,.ls-h1::before,.xw-h1::before{
+		font-size: 10px !important;
+		margin: 0 !important;
+	}
+	.wz-section{
+		width: 95vw !important;
+		padding: 10px;
+		margin: 80px 0;
+	}
+	.wz-section h1{
+		font-size: 1.4em;
+		margin: 40px 0 40px;
+		font-weight: bold;
+		line-height: 1.4em;
+	}
+	.wz-section img,.wz-section video{
+		width: 100%;
+	}
+}

@@ -1145,7 +1145,7 @@ footer .form1 input[type=submit]:hover{
 	.top{
 		position: fixed !important;
 		top: 0;
-		z-index: 99 !important;
+		z-index: 996 !important;
 		height: 70px !important;
 		background-color: #171a21;
 	}
@@ -1289,13 +1289,17 @@ footer .form1 input[type=submit]:hover{
 		width: 100% !important;
 		height: 100% !important;
 	}
+	.scoller ul{
+		width: 400px !important;
+		height: 240px !important;
+	}
 	.scoller ul li{
 		width: 400px;
 		height: 240px !important;
 	}
 	.index{
 		width: 102vw !important;
-		margin-top: -220px !important;
+		margin-top: -212px !important;
 		height: 550px;
 	}
 	.index h1{
@@ -1311,6 +1315,7 @@ footer .form1 input[type=submit]:hover{
 	}
 	.wallpaper{
 		width: 102vw;
+		height: 150vh;
 		margin-top: -90px;
 	}
 	.wallpaper-div{
@@ -1319,6 +1324,7 @@ footer .form1 input[type=submit]:hover{
 	}
 	.wallpaper-a{
 		width: 40% !important;
+		max-width: 200px;
 		margin: 10px !important;
 	}
 	.wallpaper h2{
@@ -1334,5 +1340,6 @@ footer .form1 input[type=submit]:hover{
 	footer{
 		width: 102vw;
 		padding:0 20px;
+		margin-top: 230px;
 	}
 }

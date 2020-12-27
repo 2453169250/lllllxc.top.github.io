@@ -74,6 +74,10 @@
 	.top{
 		position: relative !important;
 	}
+	.box2{
+		position: absolute;
+		margin: -100px 0 !important;
+	}
 	.mryt .box2 .ul2 li span{
 		padding: 5px !important;
 		font-size: 10px !important;
@@ -87,6 +91,6 @@
 	body{
 		position: absolute;
 		z-index: -999;
-		height: 2500px !important;
+		height: 2200px !important;
 	}
 }
