@@ -18,12 +18,14 @@
 @media screen and (max-width:960px){
 	.sale-zght{
 		width: 100vw;
+		position: absolute;
+		z-index: -100;
 	}
 	.ul1{
 		width: 100vw;
 		padding: 0 0 0 125px!important;
 		position: absolute;
-		z-index: 99 !important;
+		z-index: -99 !important;
 	}
 	.sale-ul1-li{
 		width: 22%;
@@ -44,9 +46,13 @@
 	}
 	.d0,.d1,.d2,.d3{
 		width: 100vw !important;
-		margin-left: 230px;
+		margin-left: 190px;
+	}
+	.d0 li,.d1 li,.d2 li,.d3 li{
+		width: 40vw !important;
+		height: 30vw !important;
 	}
 	.page{
-		transform: translateX(90px);
+		transform: translateX(145px);
 	}
 }

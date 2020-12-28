@@ -166,7 +166,8 @@
 	.zx{
 		width: 350px;
 		height: 100px;
-		transform: translate(190px,0px);
+		transform: translate(60%,5%) !important;
+		margin-bottom: 30px;
 	}
 	.sale ul{
 		width: 100vw !important;

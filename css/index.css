@@ -745,7 +745,7 @@ section ol li,ul li{
 	/* border-radius: 5px; */
 }
 .index-juz{
-	width: 1000px;
+	width: 1150px;
 	margin: 20px auto;
 }
 .index h1 a{
@@ -798,7 +798,7 @@ section ol li,ul li{
 }
 .index .ul3{
 	position: absolute;
-	transform: translate(390px,-190px);
+	transform: translate(430px,-190px);
 	width: 360px;
 	font-size: 15px;
 }
@@ -813,7 +813,7 @@ section ol li,ul li{
 }
 .index .ul4{
 	width: 360px;
-	margin-left:20px;
+	margin-left:15px;
 	float: left;
 }
 .index .ul4 li{
@@ -1307,7 +1307,7 @@ footer .form1 input[type=submit]:hover{
 		font-size: 1.5em !important;
 	}
 	.index-p{
-		font-size: .5em;
+		font-size: .7em;
 	}
 	.juz{
 		width: 100vw;

@@ -158,18 +158,18 @@ Recordset1_numRows = 0
 				</div>
 			</section>
 			<section class="index clear">
-				<div class="index-juz">
+<div class="index-juz">
 					<div class="xx clear">
 						<h1><a>信息发布</a></h1>
 						<h4 style="margin-top:25px;">长征八号运载火箭首次飞行试验取得圆满成功</h4>
-						<p class="index-p">12月22日12时37分，我国自主研制的新型中型运载火箭长征八号首次飞行试验，在中国文...<a href="xwfb1.asp" target="_blank">[详细]</a></p>
+						<p class="index-p">12月22日12时37分，我国自主研制的新型中型运载火箭长征八号首次飞行试验，在中国文...<a href="xwfb1.html" target="_blank">[详细]</a></p>
 						<h4>嫦娥五号任务月球样品交接仪式在京举行</h4>
-						<p class="index-p">12月19日上午，国家航天局在京举行探月工程嫦娥五号任务月球样品交接仪式，与部分参研...<a href="xwfb2.asp" target="_blank">[详细]</a></p>
+						<p class="index-p">12月19日上午，国家航天局在京举行探月工程嫦娥五号任务月球样品交接仪式，与部分参研...<a href="xwfb2.html">[详细]</a></p>
 						<ul class="ul3">
-							<li><a href="xwfb3.asp" target="_blank">习近平致电代表党中央、国务院和中央军委祝贺探月工程嫦娥五号任务取得圆满成...</a></li>
-							<li><a href="xwfb4.asp" target="_blank">嫦娥五号探测器圆满完成我国首次地外天体采样返回任务</a></li>
-							<li><a href="xwfb5.asp" target="_blank">嫦娥五号探测器完成第二次月地转移轨道修正</a></li>
-							<li><a href="xwfb6.asp" target="_blank">嫦娥五号轨道器和返回器组合体实施第二次月地转移入射</a></li>
+							<li><a href="xwfb3.html" target="_blank">习近平致电代表党中央、国务院和中央军委祝贺探月工程嫦娥五号任务取得圆满成...</a></li>
+							<li><a href="xwfb4.html" target="_blank">嫦娥五号探测器圆满完成我国首次地外天体采样返回任务</a></li>
+							<li><a href="xwfb5.html" target="_blank">嫦娥五号探测器完成第二次月地转移轨道修正</a></li>
+							<li><a href="xwfb6.html" target="_blank">嫦娥五号轨道器和返回器组合体实施第二次月地转移入射</a></li>
 							<span class="a-img1"></span>
 						</ul>
 						<!-- <a href="javascript:;" class="a-img1"><img src="img/002.jpg"/></a> -->
@@ -177,19 +177,20 @@ Recordset1_numRows = 0
 					<div class="xx clear">
 						<h1><a>空间科学 • 空间应用</a></h1>
 						<ul class="ul4 clear">
-							<li><a href="kjkx1.asp" target="_blank">国际最小高能绿色推力器在轨验证成功</a></li>
-							<li><a href="kjkx2.asp" target="_blank">一颗近地小行星飞掠地球，轨道非常特殊</a></li>
-							<li><a href="kjkx3.asp" target="_blank">除了导航，“北斗”还能干什么</a></li>
-							<li><a href="kjkx4.asp" target="_blank">25年持续蓄力，北斗向全球组网发起全面冲刺</a></li>
-							<li><a href="kjkx5.asp" target="_blank">“太极一号”：我国空间引力波探测迈出第一步</a></li>
+							<li><a href="kjkx1.html" target="_blank">国际最小高能绿色推力器在轨验证成功</a></li>
+							<li><a href="kjkx2.html" target="_blank">一颗近地小行星飞掠地球，轨道非常特殊</a></li>
+							<li><a href="kjkx3.html" target="_blank">除了导航，“北斗”还能干什么</a></li>
+							<li><a href="kjkx4.html" target="_blank">25年持续蓄力，北斗向全球组网发起全面冲刺</a></li>
+							<li><a href="kjkx5.html" target="_blank">“太极一号”：我国空间引力波探测迈出第一步</a></li>
 						</ul>
-						<h1 class="clear" style="padding:0;margin:0;border: 0;position:relative;margin-top:-59px;margin-left: 385px;"><a>国际航天</a></h1>
-						<ul class="ul4 clear" style="position:relative;left:370px;top:-180px;">
-							<li><a href="gjht1.asp" target="_blank">阿联酋发力太空探索 “拉希德”2024年登月</a></li>
-							<li><a href="gjht2.asp" target="_blank">NASA持续推进太空“引爆点”技术</a></li>
-							<li><a href="gjht3.asp" target="_blank">德国计划重返航天角力场</a></li>
-							<li><a href="gjht4.asp" target="_blank">美国宇航局计划在小行星表面采集岩石样本</a></li>
-							<li><a href="gjht5.asp" target="_blank">2024年将宇航员送上月球 分三步走</a></li>
+						
+						<h1 class="clear" style="padding:0;margin:0;border: 0;position:relative;margin-top:-59px;margin-left: 430px;"><a>国际航天</a></h1>
+						<ul class="ul4 clear" style="position:relative;left:420px;top:-180px;">
+							<li><a href="gjht1.html" target="_blank">阿联酋发力太空探索 “拉希德”2024年登月</a></li>
+							<li><a href="gjht2.html" target="_blank">NASA持续推进太空“引爆点”技术</a></li>
+							<li><a href="gjht3.html" target="_blank">德国计划重返航天角力场</a></li>
+							<li><a href="gjht4.html" target="_blank">美国宇航局计划在小行星表面采集岩石样本</a></li>
+							<li><a href="gjht5.html" target="_blank">2024年将宇航员送上月球 分三步走</a></li>
 							<span class="a-img2"></span>
 						</ul>
 						<!-- <a href="javascript:;" class="a-img2"><img src="img/001.jpg"/></a> -->
