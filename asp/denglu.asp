@@ -95,7 +95,12 @@ End If
 		letter-spacing: 2px;
 	}
 	#button,#button2{
+		border: 1px solid #ddd;
 		transition: .5s !important;
+		border-radius: 5px;
+		letter-spacing: 2px;
+		margin-left: 5px;
+		outline: none;
 	}
 	#button:hover{
 		background-color: #009cde !important;

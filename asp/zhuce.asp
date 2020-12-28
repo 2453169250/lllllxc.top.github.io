@@ -115,6 +115,11 @@ Recordset1_numRows = 0
 	}
 	#button,#button1{
 		transition: .5s !important;
+		border: 1px solid #ddd;
+		border-radius: 5px;
+		letter-spacing: 2px;
+		margin-left: 5px;
+		outline: none;
 	}
 	#button1:hover{
 		background-color: #009cde !important;
