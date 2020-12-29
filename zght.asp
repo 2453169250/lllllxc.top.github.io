@@ -139,7 +139,6 @@ Recordset1_numRows = 0
 					</div>
 				</nav>
 			</header>
-		<main>
 			<div class="sale sale-zght">
 				<div class="game">
 					<ul class="ul1 sale-game-ul1">
@@ -206,7 +205,6 @@ Recordset1_numRows = 0
 					<iframe src="zghtcp/0.html" name="iframe1" class="aside-iframe"></iframe>
 				</div>
 			</div>
-		</main>
 		<div class="backtotop"></div>
 	</body>
 </html>
