@@ -14,7 +14,7 @@ ul,li{
 	list-style: none;
 }
 ::selection {
-    background:#9cbbd3; 
+    background:rgba(156, 187, 211, 1); 
     color:#ffffff;
 }
 ::-webkit-scrollbar {
@@ -1299,8 +1299,11 @@ footer .form1 input[type=submit]:hover{
 	}
 	.index{
 		width: 102vw !important;
-		margin-top: -212px !important;
+		margin-top: -210px !important;
 		height: 550px;
+	}
+	.index .xx:first-child h1{
+		margin-top: -20px !important;
 	}
 	.index h1{
 		margin-top: 10px;
@@ -1317,6 +1320,7 @@ footer .form1 input[type=submit]:hover{
 		width: 102vw;
 		height: 150vh;
 		margin-top: -90px;
+		background-attachment: fixed !important;
 	}
 	.wallpaper-div{
 		width: 100vw;

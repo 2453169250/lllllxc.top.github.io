@@ -30,6 +30,8 @@
 	overflow: hidden;
 	white-space: nowrap;
 	transition: .2s;
+	cursor: text;
+	font-size: 1.3em;
 }
 .mryt .box2 .ul2 li span:hover{
 	color: #ce8460;
@@ -37,7 +39,7 @@
 .mryt .box2 .ul2 li span::before{
 	content: 'NASA·每日一图';
 	display: block;
-	font-size: 13px;
+	font-size: .7em;
 	margin: 5px 0;
 	color: #ce8460;
 	transition: .2s;
@@ -45,7 +47,7 @@
 .mryt .box2 .ul2 li .tw::before{
 	content: '天文·每日一图';
 	display: block;
-	font-size: 13px;
+	font-size: .7em;
 	margin: 5px 0;
 	color: #ce8460;
 	transition: .2s;
