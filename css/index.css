@@ -429,19 +429,27 @@ section ol li,ul li{
 	width: 25px;
 	background: rgba(131, 206, 255, 0.6);
 }
-.sale-zght::after{
+.sale-zght{
+	position: relative;
+	background-color: #1e272e;
+	width: 1200px;
+	height: 870px;
+	margin: 0 auto;	
+	top: 10px;
+}
+/* .sale-zght::after{
 	content: '';
 	z-index: -1;
 	display: block;
 	position: absolute;
-	top: 255px;
+	top: 10px;
 	width: 1200px;
-	height: 900px;
+	height: 870px;
 	left: 50%;
 	right: 50%;
 	transform: translate(-50.5%,0%);
 	background:#1e272e;
-}
+} */
 .sale .aside{
 	margin: 10px auto;
 	position: relative;
@@ -518,7 +526,7 @@ section ol li,ul li{
 }
 .sale-game-ul1{
 	position: absolute;
-	top: -20px !important;
+	top: -35px !important;
 }
 .sale-ul1-li{
 	position: relative;

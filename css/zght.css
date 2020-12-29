@@ -16,6 +16,9 @@
 	background:#003364;
 }
 @media screen and (max-width:960px){
+	.aside{
+		display: none;
+	}
 	.sale-zght{
 		width: 100vw;
 		position: absolute;
