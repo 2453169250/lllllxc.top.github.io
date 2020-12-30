@@ -26,6 +26,7 @@
 		width: 100vw;
 		position: absolute;
 		z-index: -100;
+		background:none !important;
 	}
 	.ul1{
 		width: 100vw;

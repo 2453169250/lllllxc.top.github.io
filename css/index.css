@@ -1097,7 +1097,7 @@ footer .form1 input[type=submit]:hover{
 }
 .backtotop{
 	position: fixed;
-	z-index: 99;
+	z-index: 50;
 	right: 50px;
 	bottom: -80px;
 	width: 50px;
@@ -1254,7 +1254,7 @@ footer .form1 input[type=submit]:hover{
 	.zhezhao{
 		position: fixed;
 		top: 0;
-		z-index: 100;
+		z-index: 66;
 		width: 100vw;
 		height: 100vh;
 		background-color: rgba(0,0,0,.4);
