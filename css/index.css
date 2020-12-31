@@ -6,6 +6,7 @@
 body{
 	/* background-color: #194660; */
 	overflow-x: hidden;
+	overflow-y: overlay;
 }
 main{
 	margin: 110px auto 900px;
@@ -21,19 +22,19 @@ ul,li{
     width: 8px;
 }
 ::-webkit-scrollbar-thumb {
-    background: rgba(43, 50, 57, 1.0);
+    background: rgba(168, 168, 168, 0.5);
     border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover{
-    background: rgba(61, 71, 81, 1.0);
+    background: rgba(218, 218, 218, 0.5);
     border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:active{
-    background: rgba(70, 82, 93, 1.0);
+    background: rgba(255, 255, 255, 0.5);
     border-radius: 4px;
 }
 ::-webkit-scrollbar-track {
-    background: rgba(15, 20, 25, 1);
+   /* background-color: transparent; */
 }
 .beijing1{
 	z-index: -999;
@@ -1137,6 +1138,9 @@ footer .form1 input[type=submit]:hover{
 	display: none;
 }
 @media screen and (max-width:960px) {
+	::-webkit-scrollbar{
+		display: none;
+	}
 	body{
 		-webkit-touch-callout: none;
 		-webkit-user-select: none;
