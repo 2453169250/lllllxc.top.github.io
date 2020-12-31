@@ -25,7 +25,7 @@ ul,li{
     color:#ffffff;
 }
 ::-webkit-scrollbar {
-    width: 8px;
+    width: 5px;
 }
 ::-webkit-scrollbar-thumb {
     background: rgba(168, 168, 168, 0.5);
