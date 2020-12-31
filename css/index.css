@@ -8,6 +8,12 @@ body{
 	overflow-x: hidden;
 	overflow-y: overlay;
 }
+body img{
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
 main{
 	margin: 110px auto 900px;
 }
